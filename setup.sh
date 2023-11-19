@@ -14,8 +14,11 @@ if ! command_exists unzip; then
     exit 1
 fi
 
-wget https://cursor.so/resources.zip
-wget https://cursor.so/lsp.zip
+# wget https://cursor.so/resources.zip
+# wget https://cursor.so/lsp.zip
+
+wget https://cursor-github.s3.us-west-1.amazonaws.com/resources.zip
+wget https://cursor-github.s3.us-west-1.amazonaws.com/lsp.zip
 
 unzip resources.zip
 unzip lsp.zip

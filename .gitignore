@@ -80,7 +80,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -111,10 +111,10 @@ config.json
 
 out/
 build/
-/lsp/
+# /lsp/
 settings.json
-resources/**
-lsp/**
+# resources/**
+# lsp/**
 *.zip
 scripts/**
 

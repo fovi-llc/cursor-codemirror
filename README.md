@@ -32,6 +32,38 @@ Then, download some non-versioned dependencies (ripgrep binaries and language se
 ./setup.ps1 # Windows
 ```
 
+The resources.zip contains a binary named "rg" which is ripgrep.
+https://www.npmjs.com/package/@vscode/ripgrep
+https://www.npmjs.com/package/ripgrep-js
+
+The lsp.zip contains:
+
+lsp/copilot/dist/tree-sitter-go.wasm
+lsp/copilot/dist/tree-sitter-python.wasm
+lsp/copilot/dist/tokenizer_cushman001.json
+lsp/copilot/dist/tree-sitter.wasm
+lsp/copilot/dist/vocab_cushman001.bpe
+lsp/copilot/dist/vocab_cushman002.bpe
+lsp/copilot/dist/tree-sitter-ruby.wasm
+lsp/copilot/dist/tree-sitter-javascript.wasm
+lsp/copilot/dist/tokenizer_cushman002.json
+lsp/copilot/dist/tree-sitter-typescript.wasm
+lsp/copilot/dist/agent.js.LICENSE.txt
+lsp/copilot/dist/agent.js
+lsp/typescript
+lsp/typescript/.DS_Store
+lsp/typescript/f62bdf9ea3dc70910b43.json
+lsp/typescript/main.js
+lsp/typescript/lib
+lsp/typescript/lib/.DS_Store
+lsp/typescript/fake
+lsp/typescript/fake/.DS_Store
+lsp/typescript/fake/fake
+lsp/typescript/1ff17563bcd2d0405595.json
+lsp/tsserver.js
+lsp/css.js
+
+
 Finally, to run the client:
 
 ```
